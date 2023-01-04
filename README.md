@@ -1,6 +1,7 @@
 # qB-Torents-Auto-Resume
 
 解决IYUU Plus辅种并校验完完成率为100%后不自动开始做种的问题
+
 只支持qb：抱歉本人只用qb，只在qb 4.4.3.1版本中测试过
 
 使用方法：
