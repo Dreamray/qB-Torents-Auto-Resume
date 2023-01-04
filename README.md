@@ -1,6 +1,6 @@
 # qB-Torents-Auto-Resume
 
-解决IYUU Plus辅种并校验完完成率为100%时不自动开始做种的问题
+解决IYUU Plus辅种并校验完完成率为100%后不自动开始做种的问题
 
 使用方法：
 1. Chrome浏览嚣安装Tampermonkey扩展程序
