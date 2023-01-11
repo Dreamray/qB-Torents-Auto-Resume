@@ -1,10 +1,10 @@
 # qB-Torents-Auto-Resume
 
-解决IYUU Plus辅种并校验完完成率为100%后不自动开始做种的问题
+## 简介
+- 解决IYUU Plus辅种并校验完完成率为100%后不自动开始做种的问题
+- 只支持qb：抱歉本人只用qb，只在qb 4.4.3.1版本中测试过
 
-只支持qb：抱歉本人只用qb，只在qb 4.4.3.1版本中测试过
-
-使用方法：
+## 使用方法：
 1. Chrome浏览嚣安装Tampermonkey扩展程序
 2. 复制qb torents auto resume.user.js文件内的所有代码
 3. 打开Tampermonkey的管理面板，点击“+”号新建用户脚本
