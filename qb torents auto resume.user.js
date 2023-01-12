@@ -32,13 +32,13 @@
                         xhrResume.onreadystatechange = function () {
                             if (xhrResume.readyState == 4 && ((xhrResume.status >= 200 && xhrResume.status < 300) || xhrResume.status == 304)) {
                                 resumeSuccessSum+=1;
-                                console.log(nowDate.toLocaleTimeString() + '：成功恢复第 ' + resumeSuccessSum + ' 个 -> ' + pausedTorrents[i].name + ' --> ' + pausedTorrents[i].magnet_uri.split('%2f')[2])
+                                console.log(nowDate.toLocaleTimeString() + '：成功做种第 ' + resumeSuccessSum + ' 个 -> ' + pausedTorrents[i].name + ' --> ' + pausedTorrents[i].magnet_uri.split('%2f')[2])
                             }
                         }
                     }
                 };
                 if(progress1Sum > 0){
-                    console.log(nowDate.toLocaleTimeString() + '：本次检查共有 ' + progress1Sum + ' 个已暂停且完成率100%的种子')
+                    console.log(nowDate.toLocaleTimeString() + '：本次检查共有 ' + progress1Sum + ' 个完成100%但没做种的种子')
                 }
             }
         }
