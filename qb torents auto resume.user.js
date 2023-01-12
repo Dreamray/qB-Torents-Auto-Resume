@@ -32,7 +32,7 @@
                         xhrResume.onreadystatechange = function () {
                             if (xhrResume.readyState == 4 && ((xhrResume.status >= 200 && xhrResume.status < 300) || xhrResume.status == 304)) {
                                 resumeSuccessSum+=1;
-                                console.log(nowDate.toLocaleTimeString() + '：成功做种第 ' + resumeSuccessSum + ' 个 -> ' + pausedTorrents[i].name + ' --> ' + pausedTorrents[i].magnet_uri.split('%2f')[2])
+                                console.log(nowDate.toLocaleTimeString() + '：开始做种第 ' + resumeSuccessSum + ' 个 -> ' + pausedTorrents[i].name + ' --> ' + pausedTorrents[i].magnet_uri.split('%2f')[2])
                             }
                         }
                     }
